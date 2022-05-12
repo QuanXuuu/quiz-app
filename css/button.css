@@ -1,0 +1,6 @@
+button {
+  background-color: gray;
+  border-radius: 15px;
+  position: absolute;
+  right: 50%;
+}
