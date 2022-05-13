@@ -1,8 +1,8 @@
 .container {
-  padding: 60px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  overflow: scroll;
 }
 
 .card {
@@ -14,6 +14,13 @@
   padding: 10px;
   margin: 20px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main section h2 {
+  margin-bottom: 0;
 }
 
 img {
@@ -24,31 +31,34 @@ img {
   top: -10px;
 }
 
-.tags {
+.card__bookmark--regular {
+  background-color: white;
+}
+
+.card__button--show {
+  background-color: rgb(176, 173, 173);
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 0.8rem;
+  /* align-items: center; */
+  border: 1px solid black;
+  align-self: center;
+}
+
+.card__tags {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
-  gap: 10px;
+  padding: 0;
 }
 
-.tags__tag1 {
+.card__tags--tag1,
+.card__tags--tag2,
+.card__tags--tag3,
+.card__tags--tag4 {
   border: 1px solid black;
   border-radius: 10px;
-}
-
-.tags__tag2 {
-  border: 1px solid black;
-  border-radius: 10px;
-}
-
-.tags__tag3 {
-  border: 1px solid black;
-  border-radius: 10px;
-}
-
-.tags__tag4 {
-  border: 1px solid black;
-  border-radius: 10px;
+  padding: 0px 10px;
 }

@@ -1,0 +1,23 @@
+.create__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: whitesmoke;
+  align-items: center;
+}
+
+.create__question,
+.create__answer,
+.create__tags {
+  margin-bottom: 20px;
+}
+
+.create__button--submit {
+  background-color: rgb(176, 173, 173);
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 0.8rem;
+  border: 1px solid black;
+  align-content: center;
+  margin: 20px;
+}

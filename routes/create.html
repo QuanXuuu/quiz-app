@@ -5,29 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Create</title>
-    <link rel="stylesheet" href="../css/styles.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Josefin+Sans:ital,wght@0,300;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
 
   <body>
-  <header>
-      <h1>create</h1>
-  <header>
+    <header>
+      <h1>Create</h1>
+    </header>
 
-  <main>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, repellat.</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, natus!</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, consectetur!</p>
-  
-  <button>Submit</button>
-</main>
+    <main class="create__container">
+      <form action="">
+        <div class="create__question">
+          <label for="create__question">Add Question:</label><br />
+          <textarea
+            name="create__question"
+            id="create__question"
+            cols="60"
+            rows="10"
+          ></textarea>
+        </div>
 
-<footer>
-  <nav class="nav">
-    <a class="nav__home" href="/">Home</a>
-    <a class="nav__bookmarks" href="routes/bookmarks.html">Bookmarks</a>
-    <a class="nav__create" href="routes/create.html">Create</a>
-    <a class="nav__profile" href="routes/profile.html">Profile</a>
-  </nav>
-</footer>
-</body>
+        <div class="create__answer">
+          <label for="create__answer">Add Answer:</label><br />
+          <textarea
+            name="create__answer"
+            id="create__answer"
+            cols="60"
+            rows="10"
+          ></textarea>
+        </div>
+
+        <div class="create__tags">
+          <label for="create__tags">Add Tags:</label><br />
+          <textarea
+            name="create__tags"
+            id="create__tags"
+            cols="60"
+            rows="5"
+          ></textarea>
+        </div>
+      </form>
+      <button class="create__button--submit">Submit</button>
+    </main>
+
+    <footer>
+      <nav class="nav">
+        <a class="nav__home" href="/">Home</a>
+        <a class="nav__bookmarks" href="./bookmarks.html">Bookmarks</a>
+        <a class="nav__create" href="./create.html">Create</a>
+        <a class="nav__profile" href="./profile.html">Profile</a>
+      </nav>
+    </footer>
+  </body>
 </html>
