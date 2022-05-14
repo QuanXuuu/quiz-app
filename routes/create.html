@@ -9,6 +9,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Josefin+Sans:ital,wght@0,300;1,100&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
 
@@ -41,12 +48,13 @@
 
         <div class="create__tags">
           <label for="create__tags">Add Tags:</label><br />
-          <textarea
-            name="create__tags"
+          <input
+            placeholder="Tag 1, Tag 2, Tag 3..."
+            type="text"
             id="create__tags"
-            cols="60"
-            rows="5"
-          ></textarea>
+            name="create__tags"
+            size="57"
+          />
         </div>
       </form>
       <button class="create__button--submit">Submit</button>
@@ -54,10 +62,18 @@
 
     <footer>
       <nav class="nav">
-        <a class="nav__home" href="/">Home</a>
-        <a class="nav__bookmarks" href="./bookmarks.html">Bookmarks</a>
-        <a class="nav__create" href="./create.html">Create</a>
-        <a class="nav__profile" href="./profile.html">Profile</a>
+        <a class="nav__home" href="/"
+          ><i class="fa-solid fa-house-user"></i> Home</a
+        >
+        <a class="nav__bookmarks" href="bookmarks.html"
+          ><i class="fa-solid fa-bookmark"></i> Bookmarks</a
+        >
+        <a class="nav__create active" href="create.html">
+          <i class="fa-solid fa-book"></i> Create</a
+        >
+        <a class="nav__profile" href="profile.html">
+          <i class="fa-solid fa-address-card"></i> Profile</a
+        >
       </nav>
     </footer>
   </body>

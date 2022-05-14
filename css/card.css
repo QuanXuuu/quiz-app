@@ -36,11 +36,10 @@ img {
 }
 
 .card__button--show {
-  background-color: rgb(176, 173, 173);
+  background-color: rgb(219, 218, 218);
   border-radius: 5px;
   padding: 8px;
-  font-size: 0.8rem;
-  /* align-items: center; */
+  font-size: o.8rem;
   border: 1px solid black;
   align-self: center;
 }
@@ -59,6 +58,6 @@ img {
 .card__tags--tag3,
 .card__tags--tag4 {
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 0px 10px;
 }

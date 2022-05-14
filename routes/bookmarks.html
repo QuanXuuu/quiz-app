@@ -9,6 +9,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Josefin+Sans:ital,wght@0,300;1,100&display=swap"
     rel="stylesheet"
   />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
@@ -24,7 +25,7 @@
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores sunt
       possimus debitis neque laboriosam voluptas error.
     </p>
-    <button class="card__button--show">show answer</button>
+    <button class="card__button--show">Show Answer</button>
     <div>
       <ul role="list" class="card__tags">
         <li class="card__tags--tag1">tag1</li>
@@ -42,7 +43,7 @@
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores sunt
         possimus debitis neque laboriosam voluptas error.
       </p>
-      <button class="card__button--show">show answer</button>
+      <button class="card__button--show">Show Answer</button>
       <div>
         <ul role="list" class="card__tags">
           <li class="card__tags--tag1">tag1</li>
@@ -55,13 +56,21 @@
 </main>
 
 <footer>
-    <nav class="nav">
-      <a class="nav__home" href="/">Home</a>
-        <a class="nav__bookmarks" href="./bookmarks.html">Bookmarks</a>
-        <a class="nav__create" href="./create.html">Create</a>
-        <a class="nav__profile" href="./profile.html">Profile</a>
-    </nav>
-  </footer>
+  <nav class="nav">
+    <a class="nav__home" href="/"
+      ><i class="fa-solid fa-house-user"></i> Home</a
+    >
+    <a class="nav__bookmarks active" href="bookmarks.html"
+      ><i class="fa-solid fa-bookmark"></i> Bookmarks</a
+    >
+    <a class="nav__create" href="create.html">
+      <i class="fa-solid fa-book"></i> Create</a
+    >
+    <a class="nav__profile" href="profile.html">
+      <i class="fa-solid fa-address-card"></i> Profile</a
+    >
+  </nav>
+</footer>
 </body>
 </html>
 
