@@ -43,7 +43,7 @@ footer {
   padding: 4px;
 }
 
-a:hover {
+footer a:hover {
   border-bottom: 1.5px solid black;
 }
 
