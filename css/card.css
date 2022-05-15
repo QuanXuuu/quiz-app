@@ -70,6 +70,9 @@ img {
   padding: 0px 10px;
 }
 
+.lightbox__card {
+  display: none;
+}
 .card__button--hide {
   color: black;
   text-decoration: none;
