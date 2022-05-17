@@ -43,10 +43,7 @@
   justify-content: space-between;
 }
 
-.profile__skills--skill1,
-.profile__skills--skill2,
-.profile__skills--skill3,
-.profile__skills--skill4 {
+.profile__skills--skill {
   border: 1px solid black;
   border-radius: 10px;
   padding: 0px 10px;

@@ -5,8 +5,7 @@
   overflow: scroll;
 }
 
-.card,
-.lightbox__card {
+.card {
   box-shadow: 0 6px 8px rgba(40, 75, 216, 0.4);
   border: 2px solid rgb(31, 31, 107);
   border-radius: 20px;
@@ -61,10 +60,7 @@ img {
   padding: 0;
 }
 
-.card__tags--tag1,
-.card__tags--tag2,
-.card__tags--tag3,
-.card__tags--tag4 {
+.card__tags--tag {
   border: 1px solid black;
   border-radius: 5px;
   padding: 0px 10px;
