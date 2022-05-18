@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Josefin+Sans:ital,wght@0,300;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Create</h1>
+    </header>
+
+    <main class="create__container">
+      <form action="">
+        <div class="create__question">
+          <label for="create__question">Add Question:</label><br />
+          <textarea
+            name="create__question"
+            id="create__question"
+            cols="60"
+            rows="10"
+          ></textarea>
+        </div>
+
+        <div class="create__answer">
+          <label for="create__answer">Add Answer:</label><br />
+          <textarea
+            name="create__answer"
+            id="create__answer"
+            cols="60"
+            rows="10"
+          ></textarea>
+        </div>
+
+        <div class="create__tags">
+          <label for="create__tags">Add Tags:</label><br />
+          <input
+            placeholder="Tag 1, Tag 2, Tag 3..."
+            type="text"
+            id="create__tags"
+            name="create__tags"
+            size="57"
+          />
+        </div>
+      </form>
+      <button class="create__button--submit">Submit</button>
+    </main>
+
+    <footer>
+      <nav>
+        <ol role="list" class="nav__container">
+          <li>
+            <a class="nav__home active" href="/"
+              ><i class="fa-solid fa-house-user"></i> Home</a
+            >
+          </li>
+          <li>
+            <a class="nav__bookmarks" href="bookmarks.html"
+              ><i class="fa-solid fa-bookmark"></i> Bookmarks</a
+            >
+          </li>
+          <li>
+            <a class="nav__create" href="create.html">
+              <i class="fa-solid fa-book"></i> Create</a
+            >
+          </li>
+          <li>
+            <a class="nav__profile" href="profile.html">
+              <i class="fa-solid fa-address-card"></i> Profile</a
+            >
+          </li>
+        </ol>
+      </nav>
+    </footer>
+  </body>
+</html>

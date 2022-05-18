@@ -1,0 +1,51 @@
+footer nav {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav__container {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: skyblue;
+  font-size: 1.3rem;
+  padding: 10px;
+  bottom: 1px;
+  position: relative;
+  margin-bottom: -4px;
+}
+
+.nav__home {
+  position: sticky;
+  text-decoration: none;
+  color: black;
+  border-radius: 15%;
+}
+
+.nav__bookmarks {
+  text-decoration: none;
+  color: black;
+  border-radius: 15%;
+}
+
+.nav__create {
+  text-decoration: none;
+  color: black;
+  border-radius: 15%;
+}
+
+.nav__profile {
+  text-decoration: none;
+  color: black;
+  border-radius: 15%;
+}
+
+footer a:hover {
+  border-bottom: 1.5px solid black;
+}
+
+.active {
+  border-bottom: 1.5px solid black;
+}

@@ -1,0 +1,60 @@
+.profile__content--container {
+  /* margin: 2rem; */
+  padding: 2rem;
+  background-color: whitesmoke;
+  width: 600px;
+  justify-self: center;
+}
+
+.profile-headline {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile__photo {
+  width: 150px;
+  height: auto;
+  position: relative;
+  border-radius: 50%;
+  border: 2px solid skyblue;
+}
+
+.profile__name {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  align-self: center;
+}
+
+.profile__skills {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__skills--headline {
+  font-size: 1.5rem;
+}
+
+.profile__skills--list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile__skills--skill {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0px 10px;
+}
+
+.button--logout {
+  margin-top: 20px;
+  background-color: rgb(219, 218, 218);
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 1px solid black;
+  align-self: center;
+}

@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 112.5%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  display: grid;
+  margin: 0;
+  grid-template-rows: 60px auto 48px;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
