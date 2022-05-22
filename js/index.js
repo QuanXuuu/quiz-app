@@ -12,3 +12,11 @@ function showAnswer() {
 }
 
 button.addEventListener('click', showAnswer);
+
+//Import functions
+// import { bookmarks } from './bookmarks.js';
+import { buildNav } from './navigation.js';
+
+//Run functions
+// bookmarks();
+buildNav();
