@@ -1,7 +1,3 @@
-// Select element on which action should happen
-// Add event listener to this element
-// Define what should happen if event fires
-
 const showHomepage = () => {
   const home = document.querySelector('#homepage');
   home.classList.remove('hidden');

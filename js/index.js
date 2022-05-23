@@ -10,7 +10,6 @@ function showAnswer() {
     this.innerText = 'Show Answer';
   }
 }
-
 button.addEventListener('click', showAnswer);
 
 //Import functions
