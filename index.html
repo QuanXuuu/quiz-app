@@ -23,109 +23,255 @@
   </head>
 
   <body>
-    <header>
-      <h1>Quiz App</h1>
-    </header>
+    <div id="homepage" class="app">
+      <header><h1>Quiz App</h1></header>
 
-    <main class="container">
-      <section class="card">
-        <h2 class="card__headline">Question:</h2>
-        <img src="img/bookmark-solid.svg" alt="bookmarks_solid" />
-        <p class="card__question">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores sunt
-          possimus debitis neque laboriosam voluptas error.
-        </p>
-        <button class="card__button--show" data-js="button">Show Answer</button>
-        <p class="card__answer" data-js="answer">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          ducimus, quas at delectus reprehenderit facere ex rem sunt nemo
-          commodi?
-        </p>
+      <main class="container">
+        <section class="card">
+          <h2 class="card__headline">Question:</h2>
 
-        <div>
-          <ul role="list" class="card__tags">
-            <li class="card__tags--tag">tag1</li>
-            <li class="card__tags--tag">tag2</li>
-            <li class="card__tags--tag">tag3</li>
-            <li class="card__tags--tag">tag4</li>
-          </ul>
-        </div>
-      </section>
+          <img src="img/bookmark-solid.svg" alt="bookmarks_solid" />
 
-      <section class="card">
-        <h2 class="card__headline">Question:</h2>
-        <img
-          class="card__bookmark--regular"
-          src="img/bookmark-regular.svg"
-          alt="bookmarks_regular"
-        />
-        <p class="card__question">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores sunt
-          possimus debitis neque laboriosam voluptas error.
-        </p>
-        <button class="card__button--show" data-js="button">Show Answer</button>
-        <div>
-          <ul role="list" class="card__tags">
-            <li class="card__tags--tag">tag1</li>
-            <li class="card__tags--tag">tag2</li>
-            <li class="card__tags--tag">tag3</li>
-            <li class="card__tags--tag">tag4</li>
-          </ul>
-        </div>
-      </section>
+          <p class="card__question">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
+            sunt possimus debitis neque laboriosam voluptas error.
+          </p>
+          <button class="card__button--show" data-js="button">
+            Show Answer
+          </button>
+          <p class="hidden" data-js="answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            ducimus, quas at delectus reprehenderit facere ex rem sunt nemo
+            commodi?
+          </p>
 
-      <section class="card">
-        <h2 class="card__headline">Question:</h2>
-        <img
-          src="img/bookmark-solid.svg"
-          alt="bookmarks_solid"
-          data-js="click"
-        />
-        <p class="card__question">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores sunt
-          possimus debitis neque laboriosam voluptas error.
-        </p>
-        <button class="card__button--show">Show Answer</button>
-        <div>
-          <ul role="list" class="card__tags">
-            <li class="card__tags--tag">tag1</li>
-            <li class="card__tags--tag">tag2</li>
-            <li class="card__tags--tag">tag3</li>
-            <li class="card__tags--tag">tag4</li>
-          </ul>
-        </div>
-      </section>
-    </main>
+          <div>
+            <ul role="list" class="card__tags">
+              <li class="card__tags--tag">tag1</li>
+              <li class="card__tags--tag">tag2</li>
+              <li class="card__tags--tag">tag3</li>
+              <li class="card__tags--tag">tag4</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="card__headline">Question:</h2>
+          <img
+            class="card__bookmark--regular"
+            src="img/bookmark-regular.svg"
+            alt="bookmarks_regular"
+          />
+          <p class="card__question">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
+            sunt possimus debitis neque laboriosam voluptas error.
+          </p>
+          <button class="card__button--show" data-js="button">
+            Show Answer
+          </button>
+          <p class="hidden" data-js="answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            ducimus, quas at delectus reprehenderit facere ex rem sunt nemo
+            commodi?
+          </p>
+          <div>
+            <ul role="list" class="card__tags">
+              <li class="card__tags--tag">tag1</li>
+              <li class="card__tags--tag">tag2</li>
+              <li class="card__tags--tag">tag3</li>
+              <li class="card__tags--tag">tag4</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="card__headline">Question:</h2>
+          <img
+            src="img/bookmark-solid.svg"
+            alt="bookmarks_solid"
+            data-js="click"
+          />
+          <p class="card__question">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
+            sunt possimus debitis neque laboriosam voluptas error.
+          </p>
+          <button class="card__button--show" data-js="button">
+            Show Answer
+          </button>
+          <p class="hidden" data-js="answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            ducimus, quas at delectus reprehenderit facere ex rem sunt nemo
+            commodi?
+          </p>
+          <div>
+            <ul role="list" class="card__tags">
+              <li class="card__tags--tag">tag1</li>
+              <li class="card__tags--tag">tag2</li>
+              <li class="card__tags--tag">tag3</li>
+              <li class="card__tags--tag">tag4</li>
+            </ul>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div id="bookmarks-page" class="app hidden">
+      <header>
+        <h1>Bookmarks</h1>
+      </header>
+
+      <main class="container">
+        <section class="card">
+          <h2 class="card__headline">Question:</h2>
+          <img src="../img/bookmark-solid.svg" alt="bookmarks_solid" />
+          <p class="card__question">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
+            sunt possimus debitis neque laboriosam voluptas error.
+          </p>
+          <button class="card__button--show" data-js="button">
+            Show Answer
+          </button>
+          <p class="hidden" data-js="answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            ducimus, quas at delectus reprehenderit facere ex rem sunt nemo
+            commodi?
+          </p>
+          <div>
+            <ul role="list" class="card__tags">
+              <li class="card__tags--tag">tag1</li>
+              <li class="card__tags--tag">tag2</li>
+              <li class="card__tags--tag">tag3</li>
+              <li class="card__tags--tag">tag4</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="card__headline">Question:</h2>
+          <img src="../img/bookmark-solid.svg" alt="bookmarks_solid" />
+          <p class="card__question">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
+            sunt possimus debitis neque laboriosam voluptas error.
+          </p>
+          <button class="card__button--show" data-js="button">
+            Show Answer
+          </button>
+          <p class="hidden" data-js="answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            ducimus, quas at delectus reprehenderit facere ex rem sunt nemo
+            commodi?
+          </p>
+          <div>
+            <ul role="list" class="card__tags">
+              <li class="card__tags--tag">tag1</li>
+              <li class="card__tags--tag">tag2</li>
+              <li class="card__tags--tag">tag3</li>
+              <li class="card__tags--tag">tag4</li>
+            </ul>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div id="create-page" class="app hidden">
+      <header>
+        <h1>Create</h1>
+      </header>
+
+      <main class="create__container">
+        <form action="">
+          <div class="create__question">
+            <label for="create__question">Add Question:</label><br />
+            <textarea
+              name="create__question"
+              id="create__question"
+              cols="60"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div class="create__answer">
+            <label for="create__answer">Add Answer:</label><br />
+            <textarea
+              name="create__answer"
+              id="create__answer"
+              cols="60"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div class="create__tags">
+            <label for="create__tags">Add Tags:</label><br />
+            <input
+              placeholder="Tag 1, Tag 2, Tag 3..."
+              type="text"
+              id="create__tags"
+              name="create__tags"
+              size="57"
+            />
+          </div>
+        </form>
+        <button class="create__button--submit">Submit</button>
+      </main>
+    </div>
+
+    <div id="profile-page" class="app hidden">
+      <header>
+        <h1>Profile</h1>
+      </header>
+
+      <main class="profile__content--container">
+        <section>
+          <div class="profile-headline">
+            <img
+              class="profile__photo"
+              src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZSUyMHBpY3R1cmUlMjBhbmltYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
+              alt="profile photo"
+            />
+            <p class="profile__name">Name: Lorem Ipsum</p>
+          </div>
+
+          <p class="profile__aboutme">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia,
+            nulla autem. Quia fuga, repudiandae numquam natus voluptatibus
+            voluptates veritatis placeat. Quasi delectus reprehenderit corporis
+            doloremque accusamus similique aspernatur neque reiciendis odio
+            porro cupiditate a maxime, rem quis ab optio, sapiente tempore
+            facere eos! Laudantium velit temporibus excepturi, similique placeat
+            repudiandae.
+          </p>
+
+          <div class="profile__skills">
+            <h2 class="profile__skills--headline">Skills</h2>
+            <ul role="list" class="profile__skills--list">
+              <li class="profile__skills--skill">Lorem ipsum</li>
+              <li class="profile__skills--skill">Lorem ipsum</li>
+              <li class="profile__skills--skill">Lorem ipsum</li>
+              <li class="profile__skills--skill">Lorem ipsum</li>
+            </ul>
+            <button class="button--logout">Logout</button>
+          </div>
+        </section>
+      </main>
+    </div>
 
     <footer>
       <nav>
-        <ol role="list" class="nav__container">
-          <li>
-            <a class="nav__home active" href="/"
-              ><i class="fa-solid fa-house-user"></i> Home</a
-            >
+        <ul role="list" class="nav__container">
+          <li data-nav="homepage">
+            <i class="fa-solid fa-house-user"></i> Home
           </li>
-          <li>
-            <a class="nav__bookmarks" href="routes/bookmarks.html"
-              ><i class="fa-solid fa-bookmark"></i> Bookmarks</a
-            >
+          <li data-nav="bookmarks">
+            <i class="fa-solid fa-bookmark"></i> Bookmarks
           </li>
-          <li>
-            <a class="nav__create" href="routes/create.html">
-              <i class="fa-solid fa-book"></i> Create</a
-            >
+          <li data-nav="create"><i class="fa-solid fa-book"></i> Create</li>
+          <li data-nav="profile">
+            <i class="fa-solid fa-address-card"></i> Profile
           </li>
-          <li>
-            <a class="nav__profile" href="routes/profile.html">
-              <i class="fa-solid fa-address-card"></i> Profile</a
-            >
-          </li>
-        </ol>
+        </ul>
       </nav>
     </footer>
   </body>
 
-  <script src="./js/index.js">
-    defer
-  </script>
+  <script type="module" src="./js/index.js"></script>
 </html>

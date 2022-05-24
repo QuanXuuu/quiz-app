@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 :root {
@@ -7,15 +8,12 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
-body {
+.app {
   display: grid;
-  margin: 0;
   grid-template-rows: 60px auto 48px;
   height: 100vh;
 }
 
-h1,
-h2,
-h3 {
-  line-height: 1.2;
+.hidden {
+  display: none;
 }
